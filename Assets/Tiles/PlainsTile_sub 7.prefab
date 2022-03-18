@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3139328934753789442}
   - component: {fileID: -1111933086585454780}
-  - component: {fileID: -8015230455006767774}
+  - component: {fileID: 8587628077161222178}
   m_Layer: 0
-  m_Name: WaterTile
+  m_Name: PlainsTile_sub 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -690647161, guid: c3b6e6f8b46224e4780f8d58347cb6ab, type: 3}
+  m_Sprite: {fileID: 1320441901, guid: c3b6e6f8b46224e4780f8d58347cb6ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-8015230455006767774
+--- !u!114 &8587628077161222178
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,8 +98,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileInfo:
-    tileName: water
+    tileName: plains_sub7
     DefenseBonus: 0
-    AvoidBonus: 10
+    AvoidBonus: 0
     Position: {x: 0, y: 0}
-    Index: 18
+    Index: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class BaseState : MonoBehaviour
 {
-    private FSM owner;
+    protected FSM owner;
     public void Initialize(FSM owner) 
     {
         this.owner = owner;

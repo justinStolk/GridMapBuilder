@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TileInfo : MonoBehaviour
+[System.Serializable]
+public class TileInfo
 {
-
-    [HideInInspector] public int Index;
-
+    public string tileName;
     public int DefenseBonus;
     public int AvoidBonus;
+
+    [HideInInspector] public Vector2Int Position;
+    [HideInInspector] public int Index;
 
 }
