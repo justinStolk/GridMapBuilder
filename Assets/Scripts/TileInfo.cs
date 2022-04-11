@@ -6,6 +6,7 @@ using UnityEngine;
 public class TileInfo
 {
     public string tileName;
+    public string TerrainType;
     public int DefenseBonus;
     public int AvoidBonus;
 

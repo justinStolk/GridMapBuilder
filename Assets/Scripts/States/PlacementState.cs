@@ -55,8 +55,8 @@ public class PlacementState : BaseState
         Vector3 cursorPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3Int roundedCursorPoint = new Vector3Int(Mathf.RoundToInt(cursorPoint.x), Mathf.RoundToInt(cursorPoint.y), -1);
 
-        EvaluateBrushSize();
-        brush.transform.position = new(cursorPoint.x, cursorPoint.y, -1);
+        //EvaluateBrushSize();
+        //brush.transform.position = new(cursorPoint.x, cursorPoint.y, -1);
 
         if (activeTile != null)
         {
